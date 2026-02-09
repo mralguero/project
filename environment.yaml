@@ -1,8 +1,12 @@
-name: dstoolbox
+name: project-env
 channels:
-  - defaults
+  - pkgs/main
 dependencies:
-  - python=3.11
+  - python>=3.10
+  - jupyterlab
   - ipykernel
-  - scikit-learn=1.2.1
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
 prefix: C:\Users\malguero\AppData\Local\miniconda3\envs\dstoolbox
